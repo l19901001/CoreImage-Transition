@@ -16,7 +16,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.ci_filter = [CIFilter filterWithName:self.filterName];
+    [self.ci_filter setValue:self.ci_inputImage forKey:@"inputImage"];
+    [self.ci_filter setValue:self.ci_tagerImage forKey:@"inputTargetImage"];
+    CIVector *vector = [CIVector vectorWithCGPoint:self.imageView.center];
+    [self.ci_filter setValue:vector forKey:@"inputCenter"];
+}
+
+-(void)transition:(CGFloat)t
+{
+    CIImage *ciimage = [self imageForTransitionAtTime:t];
+    
+    CIFilter *crop = [CIFilter filterWithName:@"CICrop"];
+    [crop setValue:ciimage forKey:@"inputImage"];
+    CIVector *vector = [CIVector vectorWithCGRect:self.ci_inputImage.extent];
+    [crop setValue:vector forKey:@"inputRectangle"];
+    CIImage *resultImage = [crop valueForKey:kCIOutputImageKey];
+    ;
+    CGImageRef imageRef = [self.ci_context createCGImage:resultImage fromRect:resultImage.extent];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.imageView.image = [UIImage imageWithCGImage:imageRef];
+        CGImageRelease(imageRef);
+    });
+
+}
+
+-(void)dealloc
+{
+    NSLog(@"%s", __func__);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +52,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

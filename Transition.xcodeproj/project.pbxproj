@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		013A3AE01EF65558008B7E7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3ADF1EF65558008B7E7D /* main.m */; };
 		013A3AE31EF65558008B7E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3AE21EF65558008B7E7D /* AppDelegate.m */; };
-		013A3AE61EF65558008B7E7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3AE51EF65558008B7E7D /* ViewController.m */; };
 		013A3AE91EF65558008B7E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013A3AE71EF65558008B7E7D /* Main.storyboard */; };
 		013A3AEB1EF65558008B7E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013A3AEA1EF65558008B7E7D /* Assets.xcassets */; };
 		013A3AEE1EF65558008B7E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013A3AEC1EF65558008B7E7D /* LaunchScreen.storyboard */; };
 		013A3AF91EF65558008B7E7D /* TransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3AF81EF65558008B7E7D /* TransitionTests.m */; };
 		013A3B041EF65558008B7E7D /* TransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3B031EF65558008B7E7D /* TransitionUITests.m */; };
+		013A3B201EF656F9008B7E7D /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013A3B1B1EF656F9008B7E7D /* image1.jpg */; };
+		013A3B211EF656F9008B7E7D /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013A3B1C1EF656F9008B7E7D /* image2.jpg */; };
+		013A3B221EF656F9008B7E7D /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013A3B1D1EF656F9008B7E7D /* image3.jpg */; };
+		013A3B231EF656F9008B7E7D /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3B1F1EF656F9008B7E7D /* SSViewController.m */; };
+		013A3B271EF657C7008B7E7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3B261EF657C7008B7E7D /* ViewController.m */; };
+		013A3B2A1EF659A6008B7E7D /* AccordionFoldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3B291EF659A6008B7E7D /* AccordionFoldVC.m */; };
+		01793E511EF9078C00CBD7D7 /* DissolveTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01793E501EF9078C00CBD7D7 /* DissolveTransitionVC.m */; };
+		01793E541EF9082700CBD7D7 /* FlashTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01793E531EF9082700CBD7D7 /* FlashTransitionVC.m */; };
+		019BBA381EF7BFB0000CFE3E /* BarsSwipeTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 019BBA371EF7BFB0000CFE3E /* BarsSwipeTransitionVC.m */; };
+		01CF5CA91EF7C88B00C013B1 /* CopyMachineTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CF5CA81EF7C88B00C013B1 /* CopyMachineTransitionVC.m */; };
+		01CF5CAC1EF7CE2E00C013B1 /* DisintegrateWithMaskTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CF5CAB1EF7CE2E00C013B1 /* DisintegrateWithMaskTransitionVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		013A3ADF1EF65558008B7E7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		013A3AE11EF65558008B7E7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		013A3AE21EF65558008B7E7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		013A3AE41EF65558008B7E7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		013A3AE51EF65558008B7E7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		013A3AE81EF65558008B7E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		013A3AEA1EF65558008B7E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		013A3AED1EF65558008B7E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,25 @@
 		013A3AFF1EF65558008B7E7D /* TransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013A3B031EF65558008B7E7D /* TransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionUITests.m; sourceTree = "<group>"; };
 		013A3B051EF65558008B7E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013A3B1B1EF656F9008B7E7D /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		013A3B1C1EF656F9008B7E7D /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		013A3B1D1EF656F9008B7E7D /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		013A3B1E1EF656F9008B7E7D /* SSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		013A3B1F1EF656F9008B7E7D /* SSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		013A3B251EF657C7008B7E7D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		013A3B261EF657C7008B7E7D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		013A3B281EF659A6008B7E7D /* AccordionFoldVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionFoldVC.h; sourceTree = "<group>"; };
+		013A3B291EF659A6008B7E7D /* AccordionFoldVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionFoldVC.m; sourceTree = "<group>"; };
+		01793E4F1EF9078C00CBD7D7 /* DissolveTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DissolveTransitionVC.h; sourceTree = "<group>"; };
+		01793E501EF9078C00CBD7D7 /* DissolveTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DissolveTransitionVC.m; sourceTree = "<group>"; };
+		01793E521EF9082700CBD7D7 /* FlashTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashTransitionVC.h; sourceTree = "<group>"; };
+		01793E531EF9082700CBD7D7 /* FlashTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashTransitionVC.m; sourceTree = "<group>"; };
+		019BBA361EF7BFB0000CFE3E /* BarsSwipeTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarsSwipeTransitionVC.h; sourceTree = "<group>"; };
+		019BBA371EF7BFB0000CFE3E /* BarsSwipeTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarsSwipeTransitionVC.m; sourceTree = "<group>"; };
+		01CF5CA71EF7C88B00C013B1 /* CopyMachineTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyMachineTransitionVC.h; sourceTree = "<group>"; };
+		01CF5CA81EF7C88B00C013B1 /* CopyMachineTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyMachineTransitionVC.m; sourceTree = "<group>"; };
+		01CF5CAA1EF7CE2E00C013B1 /* DisintegrateWithMaskTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisintegrateWithMaskTransitionVC.h; sourceTree = "<group>"; };
+		01CF5CAB1EF7CE2E00C013B1 /* DisintegrateWithMaskTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisintegrateWithMaskTransitionVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,11 @@
 		013A3ADD1EF65558008B7E7D /* Transition */ = {
 			isa = PBXGroup;
 			children = (
+				013A3B1A1EF656B1008B7E7D /* EffectVC */,
 				013A3AE11EF65558008B7E7D /* AppDelegate.h */,
 				013A3AE21EF65558008B7E7D /* AppDelegate.m */,
-				013A3AE41EF65558008B7E7D /* ViewController.h */,
-				013A3AE51EF65558008B7E7D /* ViewController.m */,
+				013A3B251EF657C7008B7E7D /* ViewController.h */,
+				013A3B261EF657C7008B7E7D /* ViewController.m */,
 				013A3AE71EF65558008B7E7D /* Main.storyboard */,
 				013A3AEA1EF65558008B7E7D /* Assets.xcassets */,
 				013A3AEC1EF65558008B7E7D /* LaunchScreen.storyboard */,
@@ -138,6 +166,38 @@
 				013A3B051EF65558008B7E7D /* Info.plist */,
 			);
 			path = TransitionUITests;
+			sourceTree = "<group>";
+		};
+		013A3B1A1EF656B1008B7E7D /* EffectVC */ = {
+			isa = PBXGroup;
+			children = (
+				013A3B1B1EF656F9008B7E7D /* image1.jpg */,
+				013A3B1C1EF656F9008B7E7D /* image2.jpg */,
+				013A3B1D1EF656F9008B7E7D /* image3.jpg */,
+				013A3B1E1EF656F9008B7E7D /* SSViewController.h */,
+				013A3B1F1EF656F9008B7E7D /* SSViewController.m */,
+				013A3B241EF65790008B7E7D /* SubVC */,
+			);
+			path = EffectVC;
+			sourceTree = "<group>";
+		};
+		013A3B241EF65790008B7E7D /* SubVC */ = {
+			isa = PBXGroup;
+			children = (
+				013A3B281EF659A6008B7E7D /* AccordionFoldVC.h */,
+				013A3B291EF659A6008B7E7D /* AccordionFoldVC.m */,
+				019BBA361EF7BFB0000CFE3E /* BarsSwipeTransitionVC.h */,
+				019BBA371EF7BFB0000CFE3E /* BarsSwipeTransitionVC.m */,
+				01CF5CA71EF7C88B00C013B1 /* CopyMachineTransitionVC.h */,
+				01CF5CA81EF7C88B00C013B1 /* CopyMachineTransitionVC.m */,
+				01CF5CAA1EF7CE2E00C013B1 /* DisintegrateWithMaskTransitionVC.h */,
+				01CF5CAB1EF7CE2E00C013B1 /* DisintegrateWithMaskTransitionVC.m */,
+				01793E4F1EF9078C00CBD7D7 /* DissolveTransitionVC.h */,
+				01793E501EF9078C00CBD7D7 /* DissolveTransitionVC.m */,
+				01793E521EF9082700CBD7D7 /* FlashTransitionVC.h */,
+				01793E531EF9082700CBD7D7 /* FlashTransitionVC.m */,
+			);
+			path = SubVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +267,7 @@
 				TargetAttributes = {
 					013A3ADA1EF65558008B7E7D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H9J7BEYSA2;
 						ProvisioningStyle = Automatic;
 					};
 					013A3AF31EF65558008B7E7D = {
@@ -247,6 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				013A3AEE1EF65558008B7E7D /* LaunchScreen.storyboard in Resources */,
+				013A3B211EF656F9008B7E7D /* image2.jpg in Resources */,
+				013A3B201EF656F9008B7E7D /* image1.jpg in Resources */,
+				013A3B221EF656F9008B7E7D /* image3.jpg in Resources */,
 				013A3AEB1EF65558008B7E7D /* Assets.xcassets in Resources */,
 				013A3AE91EF65558008B7E7D /* Main.storyboard in Resources */,
 			);
@@ -273,8 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013A3AE61EF65558008B7E7D /* ViewController.m in Sources */,
+				013A3B231EF656F9008B7E7D /* SSViewController.m in Sources */,
 				013A3AE31EF65558008B7E7D /* AppDelegate.m in Sources */,
+				013A3B271EF657C7008B7E7D /* ViewController.m in Sources */,
+				013A3B2A1EF659A6008B7E7D /* AccordionFoldVC.m in Sources */,
+				01CF5CAC1EF7CE2E00C013B1 /* DisintegrateWithMaskTransitionVC.m in Sources */,
+				019BBA381EF7BFB0000CFE3E /* BarsSwipeTransitionVC.m in Sources */,
+				01CF5CA91EF7C88B00C013B1 /* CopyMachineTransitionVC.m in Sources */,
+				01793E511EF9078C00CBD7D7 /* DissolveTransitionVC.m in Sources */,
+				01793E541EF9082700CBD7D7 /* FlashTransitionVC.m in Sources */,
 				013A3AE01EF65558008B7E7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,9 +493,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H9J7BEYSA2;
 				INFOPLIST_FILE = Transition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lsscom.com.Transition;
+				PRODUCT_BUNDLE_IDENTIFIER = lsscom.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,9 +507,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H9J7BEYSA2;
 				INFOPLIST_FILE = Transition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lsscom.com.Transition;
+				PRODUCT_BUNDLE_IDENTIFIER = lsscom.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -505,6 +582,7 @@
 				013A3B0A1EF65558008B7E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		013A3B0B1EF65558008B7E7D /* Build configuration list for PBXNativeTarget "TransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +591,7 @@
 				013A3B0D1EF65558008B7E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		013A3B0E1EF65558008B7E7D /* Build configuration list for PBXNativeTarget "TransitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +600,7 @@
 				013A3B101EF65558008B7E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
