@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  CopyMachineTransitionVC.m
 //  Transition
 //
-//  Created by lss on 2017/6/18.
+//  Created by lss on 2017/6/19.
 //  Copyright © 2017年 lss. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CopyMachineTransitionVC.h"
 
-@interface ViewController ()
+@interface CopyMachineTransitionVC ()
 
 @end
 
-@implementation ViewController
+@implementation CopyMachineTransitionVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

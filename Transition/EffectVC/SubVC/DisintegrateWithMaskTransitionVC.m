@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  DisintegrateWithMaskTransitionVC.m
 //  Transition
 //
-//  Created by lss on 2017/6/18.
+//  Created by lss on 2017/6/19.
 //  Copyright © 2017年 lss. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DisintegrateWithMaskTransitionVC.h"
 
-@interface ViewController ()
+@interface DisintegrateWithMaskTransitionVC ()
 
 @end
 
-@implementation ViewController
+@implementation DisintegrateWithMaskTransitionVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

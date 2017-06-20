@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  DissolveTransitionVC.m
 //  Transition
 //
-//  Created by lss on 2017/6/18.
+//  Created by lss on 2017/6/20.
 //  Copyright © 2017年 lss. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DissolveTransitionVC.h"
 
-@interface ViewController ()
+@interface DissolveTransitionVC ()
 
 @end
 
-@implementation ViewController
+@implementation DissolveTransitionVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

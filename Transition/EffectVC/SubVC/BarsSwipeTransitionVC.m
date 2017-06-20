@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  BarsSwipeTransitionVC.m
 //  Transition
 //
-//  Created by lss on 2017/6/18.
+//  Created by lss on 2017/6/19.
 //  Copyright © 2017年 lss. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BarsSwipeTransitionVC.h"
 
-@interface ViewController ()
+@interface BarsSwipeTransitionVC ()
 
 @end
 
-@implementation ViewController
+@implementation BarsSwipeTransitionVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
